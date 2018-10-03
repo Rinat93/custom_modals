@@ -1,0 +1,24 @@
+{
+  "name": "custom_dialogs",
+  "version": "1.0.0",
+  "description": "Удобное диалоговое окно",
+  "main": "elements.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rinat93/custom_modals.git"
+  },
+  "keywords": [
+    "dialog",
+    "modals",
+    "custom-dialog"
+  ],
+  "author": "Zakirjanov Rinat",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Rinat93/custom_modals/issues"
+  },
+  "homepage": "https://github.com/Rinat93/custom_modals#readme"
+}
