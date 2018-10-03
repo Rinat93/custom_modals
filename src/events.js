@@ -49,7 +49,7 @@ class EventsCustom {
     //реагируем на событие если нажали вне диапозоне окна
     CloseClickBody(e){
         let coord = this.dial.getBoundingClientRect();
-        if (e.clientX > coord.right || e.clientX < coord.left) {
+        if (e.clientX > coord.right || e.clientX < coord.left || e.clientY > coord.bottom || e.clientY < coord.top) {
             this.dial.close();
             document.body.removeEventListener('click', this.CloseClickBody, true);
         }
