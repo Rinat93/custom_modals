@@ -6,7 +6,7 @@ module.exports = {
     entry: {
         'modals': [
             'babel-polyfill',
-            './src/elements.js',
+            './src/index.js',
             './example/index.js'
         ],
     },
