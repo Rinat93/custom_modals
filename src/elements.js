@@ -1,9 +1,11 @@
+'use strict';
 /*
 * Кастомный тег для диалогового окна
 * */
 import {Modals} from './init.js';
 import {EventsCustom} from './events.js';
-class  Dialog_custom {
+
+class Dialog_custom {
     constructor(tagName) {
         this.tagName=tagName;
         this.instanceElement = this.instanceElement.bind(this);
@@ -38,6 +40,5 @@ class  Dialog_custom {
     }
 }
 
-window.addEventListener('DOMContentLoaded', function() {
-    new Dialog_custom('modal-dialog');
-});
+window.Dialog_custom = Dialog_custom;
+export {Dialog_custom}

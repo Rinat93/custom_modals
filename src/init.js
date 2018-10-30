@@ -1,5 +1,5 @@
+'use strict';
 const style = require("./style/el.json");
-
 /*
 * el - диалоговое окно
 * options {
