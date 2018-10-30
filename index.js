@@ -1,0 +1,1 @@
+exports.Dialog_custom = require('./src/index.js');
