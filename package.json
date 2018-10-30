@@ -1,6 +1,6 @@
 {
   "name": "custom_dialogs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Удобное диалоговое окно",
   "main": "elements.js",
   "scripts": {
