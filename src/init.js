@@ -62,11 +62,14 @@ class Modals {
 
     // Открытие окна
     open(){
-        // Применяем стили
-        for (let i of Object.keys(style.dialog)) {
-            this.el.style[i] = style.dialog[i];
+         // Применяем стили
+         if (this.el.className === undefined || this.el.className===""){
+            for (let i of Object.keys(style.dialog)) {
+                this.el.style[i] = style.dialog[i];
+            }
+        } else {
+            this.el.style.display = 'block';
         }
-        this.el.setAttribute('open', true);
         this.overlay();
     }
 
